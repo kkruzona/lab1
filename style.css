@@ -63,9 +63,7 @@ button {
     font-size: 12px;
     color: #69696a;
     margin: auto;
-    border: left;
-    border-style: solid;
-    border-width: 3px;
+    border-left: 3px solid;
     border-color: #69696a;
     border-top: none;
     border-bottom: none;
