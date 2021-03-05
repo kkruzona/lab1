@@ -1,10 +1,43 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
 }
 
-ul {
+.logo {
+    position: relative;
+    left: 40px;
+    color: #000;
+}
+
+.menu, li {
     list-style-type: none;
+    line-height: 200%;
+    color: #69696a;
+}
+
+button {
+    span: 100%;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(100, 47, 199);
+    color: white;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 1em;
     margin: 10px;
-    padding: 10px;
-    line-height: 150%;
-  }
+}
+
+/* A link that has not been visited */
+a:link {
+    color: #69696a;
+    text-decoration: none;
+}
+
+/* A link that is hovered on */
+a:hover {
+    color: red;
+}
+
+/* A link that is selected */
+a:active {
+    color: green;
+}
