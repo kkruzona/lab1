@@ -16,14 +16,15 @@ body {
 }
 
 button {
-    span: 100%;
+    width: 98%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
     border-radius: 100px;
     border: none;
-    background-color: rgb(100, 47, 199);
+    background-color: #000;
     color: white;
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    font-size: 1em;
-    margin: 10px;
+    margin: auto;
 }
 
 /* A link that has not been visited */
