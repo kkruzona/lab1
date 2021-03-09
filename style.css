@@ -7,6 +7,7 @@ main {
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;
+/*     ^^^this is whats making your screen slightly off-center */
 }
 
 h1 {
@@ -34,7 +35,7 @@ ul {
 button {
     display:block;
     width:100%;
-    max-width: 460px;
+/*     max-width: 460px; you dont need this for your mobile view because you always want it 100%, we'll add a media query for the button size in another place */
     border-radius: 100px;
     border: none;
     background-color: #000;
